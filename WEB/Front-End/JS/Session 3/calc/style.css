@@ -1,0 +1,105 @@
+:root {
+    --color1 : rgb(30,33,42);
+    --color2 : rgb(90, 90, 90);
+    --color3 : rgb(54, 54, 54);
+    --text_color : white;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width : 440px;
+    height: 900px;
+    background-color: var(--color1);
+    border-radius: 40px;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    user-select: none;
+    padding-left: 15px;
+}
+
+.screen {
+    text-align: right;
+    margin-top: 250px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: var(--text_color);
+    overflow-y: auto;
+    height: 80px;
+}
+.button {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    color: var(--text_color);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    user-select: none;
+}
+
+.b1 {
+    background-color:  var(--color2);
+}
+.b2 {
+    background-color: rgb(212, 129, 23);
+    color: white !important;
+}
+.b3 {
+    background-color: var(--color3);
+}
+.b0 {
+    background-color: var(--color3);
+    width: 195px;
+}
+
+.b1:hover {
+    background-color: rgb(71, 71, 71);
+}
+.b2:hover {
+    background-color: rgb(173, 103, 11);
+}
+.b3:hover {
+    background-color: rgb(95, 95, 95);
+}
+.b0:hover {
+    background-color: rgb(95, 95, 95);
+    width: 195px;
+}
+.dark_light {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top : 25px;
+    left: 25px;
+}
+
+.memory {
+    font-size: 20px;
+    width : 90%;
+    height: 50px;
+    font-weight: bold;
+    text-align: right;
+    padding: 15px;
+    position: absolute;
+    top : 100px;
+    left: 20px;
+    color: var(--text_color);
+}

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 126, 243);
+    padding: 50px 0;
+}
+
+.container {
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: rgb(3, 3, 3, 0.1) 10px 0px 50px;
+}
+
+.containerDetails {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 7px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: rgb(153, 153, 153)
+}
+
+.formField {
+    margin-bottom: 30px;
+}
+
+.Label  {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(119, 119, 119);
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 25px 15px;
+    border: 0;
+    background: rgb(240, 240, 240);
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+}
+
+.formSubmit {
+    background: rgb(3, 126, 243);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 25px 15px;
+    border: 0;
+    transition: all 0.8s;
+    font-size: 18px;
+}
+
+.formSubmit:hover {
+    background: #0271da;
+}
+
+.formContainerLineDivider {
+    background: rgb(3, 126, 243);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+.formContainerLinks {
+    display:flex;
+    justify-content: space-between;
+}
+
+.formContainerLink {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(119, 119, 119);
+    margin-top: 40px;
+}

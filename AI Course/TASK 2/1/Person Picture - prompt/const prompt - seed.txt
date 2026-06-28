@@ -1,0 +1,10 @@
+Ultra realistic photo of the same man, 25 years old, mixed ethnicity, oval slightly full face, almond-shaped deep black eyes, straight nose, full lips with a subtle natural smile, light soft stubble beard, medium-length black slightly wavy messy hair, smooth flawless youthful skin with natural texture, athletic body, relaxed posture, calm mysterious personality, highly detailed, 85mm lens, depth of field, cinematic photography, photorealistic, consistent face identity
+
+
+negative prompt:
+different face, distorted face, ugly, bad anatomy, extra fingers, blurry, low quality, unrealistic skin, cartoon, anime, overexposed, underexposed
+
+const seed:
+906380461
+
+
